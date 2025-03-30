@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 let serviceModule;
+
 try {
   serviceModule = require('./build/Release/prelogin.node');
 } catch (e) {
