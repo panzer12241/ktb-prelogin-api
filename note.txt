@@ -1,0 +1,3 @@
+build image & push
+
+    -> docker build -t ktb-prelogin-api . && docker tag ktb-prelogin-api registry.digitalocean.com/czbet-registry/ktb-prelogin-api && docker push registry.digitalocean.com/czbet-registry/ktb-prelogin-api
